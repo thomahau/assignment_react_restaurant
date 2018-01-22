@@ -1,9 +1,10 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-inverse navbar-static-top">
-      <div className="container-fluid">
+      <div className="container">
         <div className="navbar-header">
           <button
             type="button"
@@ -18,7 +19,7 @@ const Navbar = () => {
             <span className="icon-bar" />
           </button>
           <a className="navbar-brand" href="/">
-            Your Friendly Neighborhood Food Establishment
+            Joe's Diner
           </a>
         </div>
         <div className="collapse navbar-collapse" id="main-nav-collapse">
@@ -27,7 +28,7 @@ const Navbar = () => {
               <a href="#welcome">Welcome</a>
             </li>
             <li>
-              <a href="#reservations">Reservations</a>
+              <a href="#reservation">Reservations</a>
             </li>
             <li>
               <a href="#menu">Menu</a>
